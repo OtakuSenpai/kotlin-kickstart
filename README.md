@@ -1,7 +1,7 @@
 # kotlin-kickstart
 Trying to be the simplist possible kotlin project with building and testing.
 
-This is my attempt to illustrate best practices witha simple application.  This is not quite a template, as it will have some functioning code in it.  The main goals of this is: 
+This is my attempt to illustrate best practices witha simple application.  This is not quite a template, as it will have some functioning code in it.  The main goals of this are: 
 
 - Learning the languages and best practices around testing and deployment.
 - Setting up as much as i could without an IDE to get a deeper learning of the inner workings of initializing a project and dependency management.
@@ -30,4 +30,4 @@ gradle check
 - `Spek` - Specification Framework - http://spekframework.org/
 - `Kluent` - Fluent assertion library - https://markusamshove.github.io/Kluent/
 - `Mockito-Kotlin` - moking library https://github.com/nhaarman/mockito-kotlin
-- `Ktlint` - linter https://ktlint.github.io/
+- `ktlint` - linter https://ktlint.github.io/
