@@ -23,6 +23,11 @@ I worked through this by following the pluralsight course [here](https://app.plu
 # Running
 This is just a java library inside so the only thing that can be run are the tests, which you can do by just running:
 ```shell
-gradle
+gradle check
 ```
 
+# Notable dependencies used
+- `Spek` - Specification Framework - http://spekframework.org/
+- `Kluent` - Fluent assertion library - https://markusamshove.github.io/Kluent/
+- `Mockito-Kotlin` - moking library https://github.com/nhaarman/mockito-kotlin
+- `Ktlint` - linter https://ktlint.github.io/
