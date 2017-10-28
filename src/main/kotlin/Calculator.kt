@@ -19,7 +19,6 @@ class Calculator(val output: Result) {
 
 class NullResult: Result {
   override fun write(answer: Int) {
-
   }
 }
 
