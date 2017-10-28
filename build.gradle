@@ -1,19 +1,19 @@
 buildscript {
+    ext.kotlin_version = '1.1.51'
+    ext.jUnit_platform_gradle_plugin_version = '1.0.0'
+    ext.mockito_kotlin_version = '1.5.0'
+    ext.spek_version = '1.1.5'
+    ext.kluent_version = '1.30'
+    ext.ktlint_version = '0.11.1'
 
-  ext.kotlin_version = '1.1.51'
-  ext.jUnit_platform_gradle_plugin_version = '1.0.0'
-  ext.mockito_kotlin_version = '1.5.0'
-  ext.spek_version = '1.1.5'
-  ext.kluent_version = '1.30'
-  ext.ktlint_version = '0.11.1'
+    repositories {
+        mavenCentral()
+    }
 
-  repositories {
-    mavenCentral()
-  }
-  dependencies {
-    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    classpath "org.junit.platform:junit-platform-gradle-plugin:$jUnit_platform_gradle_plugin_version"
-  }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.junit.platform:junit-platform-gradle-plugin:$jUnit_platform_gradle_plugin_version"
+    }
 }
 
 apply plugin: 'org.junit.platform.gradle.plugin'
