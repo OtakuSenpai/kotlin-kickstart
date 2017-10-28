@@ -30,4 +30,4 @@ gradle check
 - `Spek` - Specification Framework - http://spekframework.org/
 - `Kluent` - Fluent assertion library - https://markusamshove.github.io/Kluent/
 - `Mockito-Kotlin` - moking library https://github.com/nhaarman/mockito-kotlin
-- `Ktlint` - linter https://ktlint.github.io/
+- `ktlint` - linter https://ktlint.github.io/
