@@ -5,9 +5,8 @@ import com.nhaarman.mockito_kotlin.verify
 import org.jetbrains.spek.api.Spek
 import org.jetbrains.spek.api.dsl.*
 import org.amshove.kluent.shouldEqual
-import org.mockito.Mockito
 
-class CalculatorSpek: Spek({
+class CalculatorSpek : Spek({
   describe("the calculator") {
 
     var calculator: Calculator? = null

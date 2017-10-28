@@ -5,7 +5,7 @@ interface Result {
 }
 
 class Calculator(val output: Result) {
-  var total = 0;
+  var total = 0
 
   fun add(x: Int, y: Int): Int {
     return x + y
@@ -17,9 +17,8 @@ class Calculator(val output: Result) {
   }
 }
 
-class NullResult: Result {
+class NullResult : Result {
   override fun write(answer: Int) {
   }
 }
-
 
